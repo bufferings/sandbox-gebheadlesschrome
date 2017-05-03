@@ -2,6 +2,7 @@ version: '3'
 services:
   app:
     build: .
+    working_dir: "/geb"
     volumes:
-    - ./geb:/work
-    - /root/.groovy
+    - ./geb:/geb
+    - ./grapes:/root/.groovy/grapes
