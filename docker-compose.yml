@@ -4,3 +4,4 @@ services:
     build: .
     volumes:
     - ./geb:/work
+    - /root/.groovy
