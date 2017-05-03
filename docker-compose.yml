@@ -3,4 +3,4 @@ services:
   app:
     build: .
     volumes:
-    - .:/work
+    - ./geb:/work
