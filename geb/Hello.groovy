@@ -8,5 +8,5 @@ import geb.Browser
 
 Browser.drive {
     go "https://google.com/"
-    report "google home page"
+    report "sample"
 }.quit()
